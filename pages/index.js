@@ -10,7 +10,7 @@ export default function Index({ allPosts, preview }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>Conundrum Quest Daily Updates</title>
+          <title>Conundrum Quest Public Build Daily Updates</title>
         </Head>
         <Container>
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
