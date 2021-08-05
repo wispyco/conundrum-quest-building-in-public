@@ -48,7 +48,6 @@ export default function Post({ post, morePosts, preview }) {
               <Form _id={post._id} />
             </div>
 
-            <SectionSeparator />
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </>
         )}
