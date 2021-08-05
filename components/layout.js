@@ -11,7 +11,7 @@ export default function Layout({ preview, children }) {
       <div className="py-20">
         <main>{children}</main>
       </div>
-      <a className="text-center text-2xl py-5 underline w-1/2 m-auto block" href="https://conundrum.quest">Visit Conundrum Quest - The worlds hardest problems and who is working on them</a>
+      <a className="text-center text-2xl py-10 underline w-1/2 m-auto block" href="https://conundrum.quest">Visit Conundrum Quest - The worlds hardest problems and who is working on them</a>
     </>
   )
 }
