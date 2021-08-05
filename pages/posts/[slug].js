@@ -27,10 +27,10 @@ export default function Post({ post, morePosts, preview }) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article>
+            <article className="w-1/2 m-auto">
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title} 
                 </title>
                 {/* <meta property="og:image" content={post.ogImage.url} /> */}
               </Head>
@@ -43,8 +43,10 @@ export default function Post({ post, morePosts, preview }) {
               <PostBody content={post.body} />
             </article>
 
-            <Comments comments={post.comments} />
-            <Form _id={post._id} />
+            <div className="w-1/2 m-auto">
+              <Comments comments={post.comments} />
+              <Form _id={post._id} />
+            </div>
 
             <SectionSeparator />
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
