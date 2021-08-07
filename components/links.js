@@ -63,6 +63,14 @@ export default function Links() {
             >
               Roam
             </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={`https://www.figma.com/file/PXrNzjQe0mduqvfBTVgBax/Conundrum-Quest?node-id=0%3A1`}
+              className="mx-3 font-bold hover:underline"
+            >
+              Figma
+            </a>
           </div>
         </div>
       </Container>
