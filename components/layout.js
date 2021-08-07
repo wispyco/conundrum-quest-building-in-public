@@ -14,12 +14,15 @@ export default function Layout({ preview, children }) {
         <main>{children}</main>
       </div>
       <a
-        className="text-center text-2xl py-10 underline w-1/2 m-auto block"
+        className="text-center text-2xl py-0 underline w-1/2 m-auto block"
         href="https://conundrum.quest"
       >
-        Visit Conundrum Quest - A place to share new problems, ideas and see who
-        is working on them.
+        Visit Conundrum Quest
       </a>
+      <p className="text-center py-5">
+        {" "}
+        A place to share new problems, ideas and see who is working on them.
+      </p>
     </>
   );
 }
